@@ -12,8 +12,11 @@ namespace Duck
         static void Main(string[] args)
         {
             DuckClass mallard = new MallardDuck();
+            mallard.display();
             mallard.quackPerform();
             mallard.flyPerform();
+            mallard.swimPerform();
+            System.Console.Read();//To avoid the terminal windos closing too quickly.
         }
     }
 }

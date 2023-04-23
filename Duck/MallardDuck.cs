@@ -12,9 +12,10 @@ namespace Duck
         flyBehavior = new FlyWithWings();
     }
 
-    public void display(){
-        Console.WriteLine("I am Mallard duck.");
-    }
+        public override void display()
+        {
+            System.Console.WriteLine("I am Mallard duck.");
+        }
     }
 
 

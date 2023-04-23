@@ -5,3 +5,4 @@ C:\Users\yueka\OneDrive\Desktop\Duck\Duck\obj\Debug\Duck.csproj.AssemblyReferenc
 C:\Users\yueka\OneDrive\Desktop\Duck\Duck\obj\Debug\Duck.csproj.CoreCompileInputs.cache
 C:\Users\yueka\OneDrive\Desktop\Duck\Duck\obj\Debug\Duck.exe
 C:\Users\yueka\OneDrive\Desktop\Duck\Duck\obj\Debug\Duck.pdb
+C:\Users\yueka\OneDrive\Desktop\Duck\Duck\obj\Debug\Duck.csproj.SuggestedBindingRedirects.cache

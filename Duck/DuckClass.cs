@@ -11,7 +11,7 @@ namespace Duck
 
     public DuckClass() {}
 
-    public virtual void diaplay() {}
+    abstract public void display();
 
     public void quackPerform() {
         flyBehavior.fly();
@@ -22,7 +22,7 @@ namespace Duck
     }
 
     public void swimPerform() {
-        Console.WriteLine("I am swimming");
+        System.Console.WriteLine("I am swimming");
     }
     }
 

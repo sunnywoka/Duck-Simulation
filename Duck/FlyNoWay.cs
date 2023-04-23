@@ -7,7 +7,7 @@ namespace Duck
 {
     public class FlyNoWay : FlyBehavior {
     public void fly(){
-        Console.WriteLine("I cannot fly");
+        System.Console.WriteLine("I cannot fly");
     }
     }
 

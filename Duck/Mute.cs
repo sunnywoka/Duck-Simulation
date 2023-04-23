@@ -7,7 +7,7 @@ namespace Duck
 {
     public class Mute : QuackBehavior {
     public void quack(){
-        Console.WriteLine("<<Silence>>");
+        System.Console.WriteLine("<<Silence>>");
     }
     }
 }

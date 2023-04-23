@@ -7,7 +7,7 @@ namespace Duck
 {
     public class Quack : QuackBehavior {
     public void quack(){
-        Console.WriteLine("Quack");
+        System.Console.WriteLine("Quack");
     }
     }
 }
