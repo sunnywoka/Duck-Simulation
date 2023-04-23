@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class MallardDuck : Duck {
+namespace Duck
+{
+    public class MallardDuck : DuckClass {
 
     public MallardDuck() {
         quackBehavior = new Quack();
@@ -11,8 +13,9 @@ public class MallardDuck : Duck {
     }
 
     public void display(){
-        Console.Write("I am Mallard duck.");
+        Console.WriteLine("I am Mallard duck.");
     }
-    
+    }
+
 
 }

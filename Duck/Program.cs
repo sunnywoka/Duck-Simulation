@@ -10,6 +10,9 @@ namespace Duck
     {
         static void Main(string[] args)
         {
+            DuckClass mallard = new MallardDuck();
+            mallard.quackPerform();
+            mallard.flyPerform();
         }
     }
 }

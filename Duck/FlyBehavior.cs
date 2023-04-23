@@ -3,7 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public interface FlyBehavior {
+namespace Duck
+{
+    public interface FlyBehavior {
     public void fly();
+    }
+
+
 
 }

@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public abstract class Duck {
+namespace Duck
+{
+    public abstract class DuckClass {
     FlyBehavior flyBehavior;
     QuackBehavior quackBehavior;
 
-    public Duck() {}
+    public DuckClass() {}
 
     public abstract void diaplay() {}
 
@@ -20,11 +22,9 @@ public abstract class Duck {
     }
 
     public void swimPerform() {
-        Console.Write("I am swimming");
+        Console.WriteLine("I am swimming");
     }
-
-
-
+    }
 
 
 }

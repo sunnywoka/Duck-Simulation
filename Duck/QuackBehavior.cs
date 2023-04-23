@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public interface QuackBehavior {
+namespace Duck
+{
+    public interface QuackBehavior {
     public void quack();
+    }
 }

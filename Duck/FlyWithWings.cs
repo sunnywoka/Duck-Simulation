@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-public class FlyWithWings : FlyBehavior {
+namespace Duck
+{
+    public class FlyWithWings : FlyBehavior {
     public void fly(){
-        Console.Write("I can fly");
+        Console.WriteLine("I can fly");
+    }
     }
 }
