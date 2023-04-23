@@ -6,6 +6,6 @@ using System.Text;
 namespace Duck
 {
     public interface QuackBehavior {
-    public void quack();
+    void quack();
     }
 }

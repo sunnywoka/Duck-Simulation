@@ -6,12 +6,12 @@ using System.Text;
 namespace Duck
 {
     public abstract class DuckClass {
-    FlyBehavior flyBehavior;
-    QuackBehavior quackBehavior;
+    public FlyBehavior flyBehavior;
+    public QuackBehavior quackBehavior;
 
     public DuckClass() {}
 
-    public abstract void diaplay() {}
+    public virtual void diaplay() {}
 
     public void quackPerform() {
         flyBehavior.fly();

@@ -9,7 +9,7 @@ namespace Duck
 
     public MallardDuck() {
         quackBehavior = new Quack();
-        FlyBehavior = new FlyWithWings();
+        flyBehavior = new FlyWithWings();
     }
 
     public void display(){

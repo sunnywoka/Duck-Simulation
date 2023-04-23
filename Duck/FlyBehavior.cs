@@ -6,9 +6,6 @@ using System.Text;
 namespace Duck
 {
     public interface FlyBehavior {
-    public void fly();
+    void fly();
     }
-
-
-
 }
